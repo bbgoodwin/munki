@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mac.minion</string>
+		<key>creation_date</key>
+		<date>2020-08-31T03:53:20Z</date>
+		<key>munki_version</key>
+		<string>5.0.1.4059</string>
+		<key>os_version</key>
+		<string>10.15.6</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Internet</string>
+	<key>description</key>
+	<string>Web browser from Mozilla</string>
+	<key>developer</key>
+	<string>Mozilla</string>
+	<key>display_name</key>
+	<string>Mozilla Firefox</string>
+	<key>installer_item_hash</key>
+	<string>c5234f44f7b4102debdbd0a5af56e9414d0f6d99a38eb1cbd99b43f186b28a85</string>
+	<key>installer_item_location</key>
+	<string>apps/mozilla/Firefox 80.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>74077</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.mozilla.firefox</string>
+			<key>CFBundleName</key>
+			<string>Firefox</string>
+			<key>CFBundleShortVersionString</key>
+			<string>80.0</string>
+			<key>CFBundleVersion</key>
+			<string>8020.8.18</string>
+			<key>minosversion</key>
+			<string>10.12.0</string>
+			<key>path</key>
+			<string>/Applications/Firefox.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Firefox.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.12.0</string>
+	<key>name</key>
+	<string>Firefox</string>
+	<key>unattended_install</key>
+	<false/>
+	<key>unattended_uninstall</key>
+	<false/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>80.0</string>
+</dict>
+</plist>
